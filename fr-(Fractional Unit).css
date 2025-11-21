@@ -1,0 +1,19 @@
+/*
+6. fr (Fractional Unit)
+What it is: fr is a flexible unit used in CSS Grid layouts. It divides available space into proportional chunks.
+When to use it: Great for defining grid tracks that should share available space equally or proportionally.
+*/
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr; /* First column gets 1 fraction, second gets 2 */
+}
+
+.grid-item {
+  background-color: lightyellow;
+}
+
+/*
+Pros: Provides flexible, responsive grid layouts.
+Cons: Only works with CSS Grid; not applicable for other layout types.
+*/
