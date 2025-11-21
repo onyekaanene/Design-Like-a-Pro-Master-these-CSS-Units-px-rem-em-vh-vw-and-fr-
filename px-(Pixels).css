@@ -1,0 +1,16 @@
+/*
+1. px (Pixels)
+What it is: A pixel is a fixed unit of measurement. It is a static value based on screen resolution.
+When to use it: Best for precise control over an element's size, especially in layouts where pixel-perfect design is required.
+*/
+
+.box {
+  width: 300px;
+  height: 200px;
+  background-color: lightblue;
+}
+
+/*
+Pros: Predictable and consistent on all screen sizes.
+Cons: Not responsive; doesn’t scale with screen size or user preferences.
+*/
