@@ -1,0 +1,15 @@
+/*
+5. vw (Viewport Width)
+What it is: vw represents a percentage of the viewport's width. 1vw equals 1% of the viewport's width.
+When to use it: Ideal for scaling elements based on the viewport’s width, especially useful in responsive design.
+*/
+
+.responsive-box {
+  width: 50vw; /* 50% of the viewport's width */
+  background-color: lightcoral;
+}
+
+/*
+Pros: Perfect for creating flexible, responsive layouts.
+Cons: May require fine-tuning for very narrow or wide screens.
+*/
