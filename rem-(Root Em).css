@@ -1,0 +1,17 @@
+/*
+2. rem (Root Em)
+What it is: rem stands for "root em". It's a relative unit based on the root element's font size (usually html).
+When to use it: Ideal for responsive typography and scaling, as it scales uniformly across the page when the root font size changes.
+*/
+
+html {
+  font-size: 16px; /* 1rem = 16px */
+}
+.text {
+  font-size: 2rem; /* 32px */
+}
+
+/*
+Pros: Scales uniformly with the root font size.
+Cons: Can be difficult to manage when working with deeply nested elements.
+*/
