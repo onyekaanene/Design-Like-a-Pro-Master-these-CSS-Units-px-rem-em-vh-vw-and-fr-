@@ -1,0 +1,17 @@
+/*
+3. em
+What it is: em is a relative unit based on the parent element's font size.
+When to use it: Useful for scaling elements relative to their parent. Be cautious, though, as it compounds when nested.
+*/
+
+.container {
+  font-size: 18px;
+}
+.text {
+  font-size: 2em; /* 36px (2 times the parent font size) */
+}
+
+/*
+Pros: Flexible for creating scalable, hierarchical layouts.
+Cons: Can lead to unexpected results when used in deeply nested elements due to compounding.
+*/
